@@ -1,0 +1,17 @@
+The Singleton Design Pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to it. It is useful in scenarios where a single instance is required to coordinate actions across the system, such as configuration settings, logging, or connection pooling.
+
+Key Characteristics:
+Private Constructor: Prevents direct instantiation of the class from outside.
+Static Method: Provides a way to access the instance, typically through a method like getInstance().
+
+----Types Commonly used----
+
+Eager Initialization
+Definition: The Singleton instance is created at the time of class loading, regardless of whether it's needed or not.
+Advantages: Simple and thread-safe; no need for synchronization.
+Disadvantages: May waste resources if the instance is never used, as it is created upfront.
+
+Lazy Initialization (We need to ensure Thread safety)
+Definition: The Singleton instance is created only when it is first requested, allowing for more efficient resource usage.
+Advantages: Saves resources by delaying instance creation until needed.
+Disadvantages: Requires additional synchronization in multi-threaded environments to ensure thread safety.

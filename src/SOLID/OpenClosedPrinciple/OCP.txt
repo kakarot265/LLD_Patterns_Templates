@@ -1,0 +1,21 @@
+Open/Closed Principle (OCP) states that:
+
+Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+This means that:
+
+Open for extension: You should be able to add new functionality to a class or module without changing its existing code.
+Closed for modification: The existing code should not be changed when you introduce new behavior. Instead, you should extend it, usually via inheritance, polymorphism, or composition.
+Why is OCP Important?
+OCP helps in minimizing changes to existing code, which reduces the chances of introducing bugs. It promotes flexibility and scalability because you can extend a system by adding new features rather than modifying its core behavior, ensuring stability in production environments.
+
+When your codebase follows OCP:
+
+You don’t need to touch well-tested, existing code to introduce new features.
+You can introduce new variants or types of behavior without risk.
+It ensures that changes in one part of the system don’t cause bugs in unrelated parts.
+How to Achieve OCP in Java?
+There are several techniques to implement OCP:
+
+Using Inheritance and Polymorphism
+Using Interfaces and Implementations
+Using Design Patterns (Eg. Factory)

@@ -1,0 +1,12 @@
+Factory Pattern:
+
+Purpose: Focuses on object creation, providing a way to instantiate objects without specifying their exact class.
+Use Case: When you want to create objects of a family of related classes based on a condition.
+
+The Factory Design Pattern is a creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of created objects. It promotes loose coupling by abstracting the instantiation process, enabling flexibility and scalability in software design.
+
+Key Features:
+Encapsulation of Object Creation: The instantiation logic is hidden from the client code.
+Decoupling: Reduces dependency on concrete classes.
+Easy to Extend: New types of products can be added without modifying existing code.
+This pattern is especially useful when the exact types of objects to create are not known until runtime.

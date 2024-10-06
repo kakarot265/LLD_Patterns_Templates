@@ -1,0 +1,14 @@
+Strategy pattern allows you to change the behavior of an object dynamically, by providing different algorithms (strategies) that can be swapped in and out. The core idea is to separate what a class does from how it does it.
+
+Key Concepts
+Strategy Interface: Defines a common interface for all
+the algorithms (strategies). Each strategy implements this interface differently.
+Concrete Strategy: These are different implementations
+of the strategy interface. Each one encapsulates an algorithm or behavior.
+Context Class: This class contains a reference to the strategy interface and
+delegates the algorithm to a strategy object.
+The client interacts with the context, and the context delegates behavior to the selected strategy.
+
+-- But this design pattern leads to the creation of lot's of classes.
+
+Core concept is -- Different Strategies(Interfaces, and their implementations) for Diff algos.

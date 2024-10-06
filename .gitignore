@@ -1,0 +1,19 @@
+# Ignore all compiled class files
+*.class
+
+# Ignore log files and other temporary files
+*.log
+.gitignor
+
+# Ignore Maven or Gradle build directories
+target/
+build/
+
+# Ignore IDE-specific directories
+/.idea/
+/*.iml
+/.vscode/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
